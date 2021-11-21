@@ -1,0 +1,17 @@
+// terrian color char
+//
+//             Normal City   Ice Jungle Barren
+{
+"ocean"      "  100     98   105   98    148"
+"grass"      "   85     85    85   85    150"
+"arid grass" "   70    188    70   70    150"
+"desert"     "  190    190   190  189    150"
+"ice"        "  111     43   111   43    151"
+"tundra"     "   32     32    32   32    151"
+"mountain"   "  192     37    37   87     79"
+"hill"       "  188     84    35   84    152"
+"tree"       "   82     25    82   82    175"
+"river"      "  103     42   105  100    148"
+"delta"      "  103     42   105  100    148"
+"road"       "   18     18    18   18     18"
+}

@@ -1,0 +1,39 @@
+//
+// TER_OCEAN		0
+// TER_GRASS		1
+// TER_AGRASS		2
+// TER_DESERT		3
+// TER_ICE			4
+// TER_TUNDRA		5
+// TER_MTN			6
+// TER_HILL			7
+// TER_TREES		8
+// TER_RIVER		9
+//
+// ID#   Odds	Terrain Type (Ocean is assumed to be Coastal only)
+//
+//	(Odds are out of 1024)
+//
+// Temperate Tile Set File
+
+BEGIN_BONUS
+26			 20		0		// TRACE
+26			 20		3		// TRACE
+26			 10		7		// TRACE
+
+27 		 10		0		// GEMS
+27 		 10		6		// GEMS
+
+28 		 10		8		// EXOTICA
+
+29 		 30		1		// FERTILE
+
+30 		 30		6		// METAL
+30 		 20		7		// METAL
+
+31 		 30		0		// ENERGY
+31 		 20		3		// ENERGY
+31 		 10		8		// ENERGY
+
+END
+

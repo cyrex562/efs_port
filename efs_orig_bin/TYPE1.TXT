@@ -1,0 +1,20 @@
+//
+// TER_OCEAN		0
+// TER_GRASS		1
+// TER_AGRASS		2
+// TER_DESERT		3
+// TER_ICE			4
+// TER_TUNDRA		5
+// TER_MTN			6
+// TER_HILL			7
+// TER_TREES		8
+// TER_RIVER		9
+//
+// ID#   Odds	Terrain Type (Ocean is assumed to be Coastal only)
+//
+
+// MEGA CITY FILE
+
+BEGIN_BONUS
+END
+

@@ -1,0 +1,97 @@
+зддддддддддддддддддддддддддддддд©
+Ё  .RTPATCH DOCUMENTATION FILE  Ё
+юддддддддддддддддддддддддддддддды
+
+   Date Created : 05:27:99
+   Time Created : 22:46:58
+
+   Patch File   : PATCH.RTP (Created)
+
+
+
+зддддддддддддддддддддддддддддддддддд©
+Ё  PATCH PROGRAM BEHAVIOR SETTINGS  Ё
+юддддддддддддддддддддддддддддддддддды
+
+   Backup Affected Files      : OFF
+   Ignore Missing FIles       : OFF
+   Print  Error Messages      : ON
+   Search PATH for Files      : ON
+   Search Subdirectories      : ON
+   Global Patch Undo on Error : OFF
+   User Level                 : ADVANCED
+   Information Display Level  : VERBOSE
+   Password Protection        : OFF
+
+
+
+зддддддддддддддддддддддд©
+Ё  FILES TO BE PATCHED  Ё
+юддддддддддддддддддддддды
+
+                                                                     Pct    
+  Action   Entry Name     Old Name       New Name      Patch Size  Reduced  
+зддддддддбддддддддддддддбддддддддддддддбддддддддддддддбддддддддддбддддддддд©
+ЁHISTORY Ё              Ё              Ё              Ё          Ё         Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё EFS.EXE      Ё EFS.EXE      Ё EFS.EXE      Ё   46056  Ё   92%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё EFS.EXE      Ё EFS.EXE      Ё EFS.EXE      Ё  109468  Ё   81%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё EFS.EXE      Ё EFS.EXE      Ё EFS.EXE      Ё   44306  Ё   92%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё EFS.EXE      Ё EFS.EXE      Ё EFS.EXE      Ё  103624  Ё   82%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё EFS.EXE      Ё EFS.EXE      Ё EFS.EXE      Ё  379095  Ё   55%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+ЁHISTORY Ё              Ё              Ё              Ё          Ё         Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё EFS.RES      Ё EFS.RES      Ё EFS.RES      Ё     654  Ё   96%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё EFS.RES      Ё EFS.RES      Ё EFS.RES      Ё     187  Ё   98%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё EFS.RES      Ё EFS.RES      Ё EFS.RES      Ё     476  Ё   97%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё DIPLO.RES    Ё DIPLO.RES    Ё DIPLO.RES    Ё      36  Ё   99%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+ЁHISTORY Ё              Ё              Ё              Ё          Ё         Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё STRINGS.RES  Ё STRINGS.RES  Ё STRINGS.RES  Ё     339  Ё   98%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё STRINGS.RES  Ё STRINGS.RES  Ё STRINGS.RES  Ё     397  Ё   97%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё STRINGS.RES  Ё STRINGS.RES  Ё STRINGS.RES  Ё     444  Ё   97%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё CDLIST.TXT   Ё CDLIST.TXT   Ё CDLIST.TXT   Ё      53  Ё   65%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё PLNPLAT3.PCX Ё PLNPLAT3.PCX Ё PLNPLAT3.PCX Ё    1461  Ё   97%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё AIPLAT.PCX   Ё AIPLAT.PCX   Ё AIPLAT.PCX   Ё     605  Ё   98%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT10.BIN Ё EFSBUT10.BIN Ё EFSBUT10.BIN Ё     513  Ё   79%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT11.BIN Ё EFSBUT11.BIN Ё EFSBUT11.BIN Ё     690  Ё   72%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT16.BIN Ё EFSBUT16.BIN Ё EFSBUT16.BIN Ё     411  Ё   94%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT2.BIN  Ё EFSBUT2.BIN  Ё EFSBUT2.BIN  Ё     174  Ё   89%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT3.BIN  Ё EFSBUT3.BIN  Ё EFSBUT3.BIN  Ё     695  Ё   81%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT4.BIN  Ё EFSBUT4.BIN  Ё EFSBUT4.BIN  Ё     346  Ё   79%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT6.BIN  Ё EFSBUT6.BIN  Ё EFSBUT6.BIN  Ё     404  Ё   75%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT8.BIN  Ё EFSBUT8.BIN  Ё EFSBUT8.BIN  Ё     635  Ё   74%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё EFSBUT9.BIN  Ё EFSBUT9.BIN  Ё EFSBUT9.BIN  Ё     514  Ё   79%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+Ё MODIFY Ё TECH.DAT     Ё TECH.DAT     Ё TECH.DAT     Ё     109  Ё   99%   Ё
+цддддддддеддддддддддддддеддддддддддддддеддддддддддддддеддддддддддеддддддддд╢
+ЁHISTORY Ё              Ё              Ё              Ё          Ё         Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё UNIT.DAT     Ё UNIT.DAT     Ё UNIT.DAT     Ё    6307  Ё   94%   Ё
+Ё        Ё              Ё              Ё              Ё          Ё         Ё
+Ё MODIFY Ё UNIT.DAT     Ё UNIT.DAT     Ё UNIT.DAT     Ё     381  Ё   99%   Ё
+юддддддддаддддддддддддддаддддддддддддддаддддддддддддддаддддддддддаддддддддды
+

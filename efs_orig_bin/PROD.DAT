@@ -1,0 +1,47 @@
+// Production for non harvest cities
+{
+"city" "chemicals"
+"need" "energy"      "10"
+"need" "trace"        "5"
+"make" "chemicals"   "10"
+}
+{
+"city" "electronics"
+"need" "energy"      "10"
+"need" "trace"        "5"
+"make" "electronics" "10"
+}
+{
+"city" "bioplant"
+"need" "energy"      "10"
+"need" "exotica"     "10"
+"need" "chemicals"   "10"
+"make" "biochems"    "10"
+}
+{
+"city" "ceramsteel"
+"need" "energy"      "10"
+"need" "chemicals"   "10"
+"need" "trace"        "7"
+"make" "ceramsteel"  "10"
+}
+{
+"city" "wetware"
+"need" "energy"      "10"
+"need" "ceramsteel"  "10"
+"need" "biochems"    "10"
+"make" "wetware"     "10"
+}
+{
+"city" "cyclotron"
+"need" "energy"      "10"
+"need" "monopols"    "10"
+"need" "gems"         "7"
+"make" "singularities" "1"
+}
+{
+"city" "fusorium"
+"need" "energy"      "10"
+"need" "electronics"  "7"
+"make" "monopols"    "10"
+}

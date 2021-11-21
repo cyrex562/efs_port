@@ -1,0 +1,98 @@
+// Stack Profiles
+//
+// Each stack profile is enclosed in braces.  First line has the name of the
+// stack, like "peasant" and a type, which is "defense", "attack", "explore".
+// Use "explore" if its not obvious.  I'll add others if it becomes
+// necessary.   I will be doing a string compare on these so they must be
+// spelled correctly.  I have stubbed in all of the stack profiles that have
+// been outlined so far.  Any new ones need to be brought to my attention.
+//
+// Each remaining line looks like:
+//
+//   "<unit type> <unit tlvl> <number>"
+//
+{
+"peasant city" "defense"
+"0 0 1"
+}
+{
+"palace city" "defense"
+"0 0 1"
+}
+{
+"other city" "defense"
+"0 0 1"
+}
+{
+"explore" "explore"
+"0 0 1"
+}
+{
+"normal planet" "attack"
+"0 0 1"
+}
+{
+"ice planet" "attack"
+"0 0 1"
+}
+{
+"jungle planet" "attack"
+"0 0 1"
+}
+{
+"barren planet" "attack"
+"0 0 1"
+}
+{
+"space transport" "attack"
+"0 0 1"
+}
+{
+"space space" "attack"
+"0 0 1"
+}
+{
+"space planet" "attack"
+"0 0 1"
+}
+{
+"rebel" "attack"
+"0 0 1"
+}
+{
+"rebel" "defense"
+"0 0 1"
+}
+{
+"league" "defense"
+"0 0 1"
+}
+{
+"inquisitor" "attack"
+"47 0 4"
+"62 0 4"
+}
+{
+"vau" "explore"
+"0 0 1"
+}
+{
+"vau" "defense"
+"0 0 1"
+}
+{
+"vau" "attack"
+"0 0 1"
+}
+{
+"symbiot" "explore"
+"0 0 1"
+}
+{
+"symbiot" "defense"
+"0 0 1"
+}
+{
+"symbiot" "attack"
+"0 0 1"
+}

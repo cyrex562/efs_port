@@ -1,0 +1,7 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\HDI\Emperor of the Fading Suns\1.0]
+"CDROM"="G:\\"
+"Directory"="f:\\SUNS"
+"DirectXInstalled"=dword:00000000
+

@@ -1,0 +1,17 @@
+// Agility mod table based on move type and terrain
+//
+//             Foot Wheel Tread Air Naval Space Hover Jump Crawler Lander
+{
+"ocean"      "   0    0     0    0    0     0     0     0     0      0"
+"grass"      "   0    0     0    0    0     0     0     0     0      0"
+"arid grass" "   0    0     0    0    0     0     0     0     0      0"
+"desert"     "   0    0     0    0    0     0     0     0     0      0"
+"ice"        "   0    0     0    0    0     0     0     0     0      0"
+"tundra"     "   0    0     0    0    0     0     0     0     0      0"
+"mountain"   "   0    0     0    0    0     0     0     0     0      0"
+"hill"       "   0    0     0    0    0     0     0     0     0      0"
+"tree"       "   0    0     0    0    0     0     0     0     0      0"
+"river"      "   0    0     0    0    0     0     0     0     0      0"
+"delta"      "   0    0     0    0    0     0     0     0     0      0"
+"road"       "   0    0     0    0    0     0     0     0     0      0"
+}

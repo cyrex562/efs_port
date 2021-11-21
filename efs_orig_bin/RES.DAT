@@ -1,0 +1,15 @@
+{
+"name" "Food"          "sing" "Food"        "price" "10"   "desc" "Units and city populations consume 1 per turn."
+"name" "Energy"        "sing" "Energy"      "price" "10"   "desc" "Used to produce other resources."
+"name" "Metal"         "sing" "Metal"       "price" "10"   "desc" ""
+"name" "Trace"         "sing" "Trace"       "price" "20"   "desc" "Used in production of composites and Electronics."
+"name" "Exotica"       "sing" "Exotica"     "price" "20"   "desc" "Used in production of Biochems."
+"name" "Chemicals"     "sing" "Chemical"    "price" "35"   "desc" "Used to create other resources."
+"name" "Biochems"      "sing" "Biochem"     "price" "60"   "desc" "Primarily a consumer good."
+"name" "Electronics"   "sing" "Electronic"  "price" "35"   "desc" "Needed for advanced units."
+"name" "Ceramsteel"    "sing" "Ceramsteel"  "price" "60"   "desc" "Required for large space craft and powered body armor."
+"name" "Wetware"       "sing" "Wetware"     "price" "130"  "desc" "Meshes man and machine."
+"name" "Monopols"      "sing" "Monopol"     "price" "480"  "desc" "Needed for energy weapons and hovercraft."
+"name" "Gems"          "sing" "Gem"         "price" "300"  "desc" "A cash commodity and needed for singularity production."
+"name" "Singularities" "sing" "Singularity" "price" "6000" "desc" "Needed for jump engines."
+}

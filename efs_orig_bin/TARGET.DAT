@@ -1,0 +1,15 @@
+// Weapon Target Table
+// weapon types: water, indirect, air, direct, close, psychic, ranged space,
+//               direct space, close space.
+{
+   "foot"      "0 1 0 0 1 1 0 0 0"
+   "wheel"     "0 1 0 1 0 1 1 0 0"
+   "tread"     "0 1 0 1 0 1 1 0 0"
+	"air"			"0 0 1 0 0 1 1 0 0"
+	"naval"		"1 1 0 1 0 1 1 0 0"
+   "space"     "0 0 0 0 0 1 1 1 1"
+   "hover"     "0 1 0 1 0 1 1 0 0"
+   "jump"      "0 0 0 0 0 1 1 1 1"
+   "crawler"   "0 1 0 1 0 1 1 0 0"
+   "lander"    "0 0 0 0 0 1 1 1 1"
+}

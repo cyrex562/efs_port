@@ -1,0 +1,22 @@
+// Relics Table
+//
+// The relics need to remain in the order below.  New ones get added onto
+// the end.  Each line has a string indicating where the affect is (galaxy,
+// planet, stack), followed by a number indicating the bonus, followed by the
+// name and a description.
+//
+// For now, the name has a limit of 31 characters and the description has
+// a limit of 63 characters.
+{
+"galaxy"  "50" "Cup of Righteous Plenty" "Tax collecting bonus"
+"galaxy"  "30" "The Prophet's Signet"    "Church diplomacy bonus"
+"planet"  "25" "Scythe of Bounty"        "Planet food production bonus"
+"planet" " 50" "Foot of St. Ignatius"    "Helps cure plague on planet"
+"stack"   "50" "Hand of St. Ignatius"    "Stack defense bonus"
+"stack"    "8" "Eye of the Prophet"      "Stack accuracy bonus"
+"stack"   "50" "Rod of Holy Smiting"     "Stack strength bonus"
+"stack"  "200" "Lamp of Knowledge"       "Stack research bonus"
+"stack"  "100" "Zebulon's Spade"         "Stack productivity bonus"
+"galaxy"  "25" "Mirror of Forgiveness"   "Other Houses like you more"
+"stack"  "100" "St. Almathea's Lancet"   "Prevents plague in stack"
+}

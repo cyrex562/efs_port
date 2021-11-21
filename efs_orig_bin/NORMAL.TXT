@@ -1,0 +1,54 @@
+ATTRACTOR CODES (May be added together for multiple effects)
+**
+** 	0 (-)	None		No Effects
+**    1		Remote	Avoids other structures (Add these structures last)
+**    2		River		Attracted to river and delta hexes
+**    4		Inland	Avoids coastal areas (exclusive to below)
+**    8		Coastal	Attracted to Coastal Areas
+**   16		Capital	Attracted to Planetary Sheild, Palace, or cathedral
+**   32		Farm		Attracted to Exotica and Fertile
+**   64		Mine		Attracted to Metal, Trace, and Gems
+**  128		Oil		Attracted to Energy
+**  256		City		Attracted to Other Buildings
+**
+
+//
+// ID#   From-To	Owner 	Roads?		Attractors
+
+BEGIN_STRUCTS
+17 			0:1		13		  	Y			   2		// SHIELD
+ 0 			0:1     	13		  	Y			  18		// PALACE
+ 1 			0:1		13		  	Y			  18		// CATHEDRAL
+14 			0:1		13		  	Y			 274		// EARTHDOCK
+23          0:0      13       Y         274     // LAB
+21          0:0      13       Y         274     // UNIVERSITY
+22          0:0      13       Y         274     // HOSPITAL
+
+ 3          0:2      13       Y         256     // FACTORY
+ 6          0:1      13       Y         256     // ELECTRONICS
+25          0:1      13       Y          33     // ARBORIUM
+
+ 5          0:1      13       Y         256     // WETWARE
+ 8          0:1      13       Y         256     // CERAMSTEEL
+ 9          0:1      13       Y         256     // BIOPLANT
+11          0:1      13       Y         256     // CHEMICALS
+12          0:0      13       Y         256     // CYCLOTRON
+20          0:0      13       Y         256     // FUSORIUM
+
+13          0:2      13       Y           1     // FORT
+
+ 4 			0:0		13			N				-		// EMBASSY
+ 7 			0:0		13			N				-		// HIVE
+10 			0:0		13			N				-		// VAU_CITY
+
+ 2 			0:1		13			N			   1		// MONASTERY
+15          3:8      13       N           -     // RUINS
+16 			0:1		13			N			   1		// ALIEN_RUINS
+
+24          2:5      13       Y          33     // FARM        radius 2
+18          1:3      13       Y          64     // MINE        radius 2
+19          0:3      13       Y         128     // OIL WELL    radius 2
+19          0:0      13       Y         136     // OIL WELL    coastals
+
+END
+

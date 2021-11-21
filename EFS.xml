@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template_results version="1.0">
+ <variable>
+  <name>struct IMAGE_DOS_HEADER DosHeader</name>
+  <start>0h</start>
+  <size>40h</size>
+  <color>Fg: Bg:0xFFE0FF</color>
+ </variable>
+ <variable>
+  <name>struct IMAGE_DOS_STUB DosStub</name>
+  <start>40h</start>
+  <size>40h</size>
+ </variable>
+ <variable>
+  <name>struct IMAGE_NT_HEADERS NtHeader</name>
+  <start>80h</start>
+  <size>F8h</size>
+  <color>Fg: Bg:0xFFE0FF</color>
+ </variable>
+ <variable>
+  <name>struct IMAGE_SECTION_HEADER SectionHeaders[7]</name>
+  <start>178h</start>
+  <size>118h</size>
+  <color>Fg: Bg:0xE0E0E0</color>
+ </variable>
+ <variable>
+  <name>struct IMAGE_SECTION_DATA Section[0]</name>
+  <start>400h</start>
+  <size>BA600h</size>
+  <value>AUTO</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_SECTION_DATA Section[1]</name>
+  <start>BAA00h</start>
+  <size>E00h</size>
+  <value>.idata</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_SECTION_DATA Section[2]</name>
+  <start>BB800h</start>
+  <size>7400h</size>
+  <value>DGROUP</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_SECTION_DATA Section[3]</name>
+  <start>C2C00h</start>
+  <size>200h</size>
+  <value>.edata</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_SECTION_DATA Section[4]</name>
+  <start>C2E00h</start>
+  <size>8E00h</size>
+  <value>.reloc</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_SECTION_DATA Section[5]</name>
+  <start>CBC00h</start>
+  <size>2600h</size>
+  <value>.rsrc</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_EXPORT_DIRECTORY ExportDir</name>
+  <start>C2C00h</start>
+  <size>58h</size>
+  <comment>efs95p.exe</comment>
+ </variable>
+ <variable>
+  <name>struct IMAGE_IMPORT_DESCRIPTOR ImportDescriptor[0]</name>
+  <start>BAA00h</start>
+  <size>14h</size>
+  <value>GDI32.dll</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_IMPORT_DESCRIPTOR ImportDescriptor[1]</name>
+  <start>BAA14h</start>
+  <size>14h</size>
+  <value>WINMM.dll</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_IMPORT_DESCRIPTOR ImportDescriptor[2]</name>
+  <start>BAA28h</start>
+  <size>14h</size>
+  <value>ADVAPI32.dll</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_IMPORT_DESCRIPTOR ImportDescriptor[3]</name>
+  <start>BAA3Ch</start>
+  <size>14h</size>
+  <value>USER32.dll</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_IMPORT_DESCRIPTOR ImportDescriptor[4]</name>
+  <start>BAA50h</start>
+  <size>14h</size>
+  <value>KERNEL32.dll</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_IMPORT_DESCRIPTOR ImportDescriptor[5]</name>
+  <start>BAA64h</start>
+  <size>14h</size>
+  <value>DSOUND.dll</value>
+ </variable>
+ <variable>
+  <name>struct IMAGE_IMPORT_DESCRIPTOR ImportDescriptor[6]</name>
+  <start>BAA78h</start>
+  <size>14h</size>
+  <value>DDRAW.dll</value>
+ </variable>
+ <variable>
+  <name>struct RESOURCE_DIRECTORY_TABLE ResourceDirectoryTable</name>
+  <start>CBC00h</start>
+  <size>20h</size>
+  <comment>Level 1, 2 entries</comment>
+ </variable>
+ <variable>
+  <name>struct BASE_RELOCATION_TABLE RelocTable</name>
+  <start>C2E00h</start>
+  <size>8D60h</size>
+  <comment>193</comment>
+ </variable>
+</template_results>

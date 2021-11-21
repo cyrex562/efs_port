@@ -1,0 +1,96 @@
+// air water space land barren default owner
+   0    0     1     0    1           7                 Grappler
+   0    0     1     0    1           7                Blow Ship
+   0    0     1     0    1           7               Spore Ship
+   0    0     1     0    1           7                 Pod Ship
+   0    0     1     0    1           7            Shroud Weaver
+   0    0     1     0    1           7              Veil Seeker
+   0    0     1     0    1           7                Destroyer
+   0    0     1     0    1           7              Quick Mercy
+   0    0     1     0    1           7                Deathmate
+   0    0     1     0    1           8              Vau Carrier
+   0    0     1     0    1           8            Vau Transport
+   0    0     1     0    1          -1       Stealth Space Ship
+   0    0     1     0    1          -1              Cadiz Class
+   0    0     1     0    1          -1           Vladimir Class
+   0    0     1     0    1          -1                Destroyer
+   0    0     1     0    1          -1                  Frigate
+   0    0     1     0    1          -1                  Carrier
+   0    0     1     0    1          -1            Space Fighter
+   0    0     1     0    1          -1          Space Torp Bmbr
+   0    0     1     0    1          -1       All Terrain Lander
+   0    0     1     0    1          -1                Freighter
+   0    0     1     0    1          -1              Bulk Hauler
+   0    0     1     0    1          -1                 Starbase
+// air water space land barren default owner
+   0    1     0     0    0          -1                Submarine
+   0    1     0     0    0          -1               Battleship
+   0    1     0     0    0          -1                Destroyer
+   0    1     0     0    0          -1                  Carrier
+   0    1     0     0    0          -1          Naval Transport
+   0    0     0     1    1          -1                  Sceptor
+   0    0     0     1    1          -1               Holy Relic
+   1    0     0     0    1           8              Vau Fighter
+   0    0     0     1    1           8             Vau Mandarin
+   0    0     0     1    1           8                Vau Guard
+   1    0     0     0    1           8             Vau Jet Bike
+   0    0     0     1    1           8             Vau War-Skif
+   0    0     0     1    1           8            Vau War-Tower
+   0    0     0     1    1           8              Vau Warrior
+   0    0     0     1    1           8               Vau Worker
+// air water space land barren default owner
+   1    0     0     0    1           7          Symbiot Spitter
+   0    0     0     1    1           7           Symbiot Minder
+   0    0     0     1    1           7         Symbiot Shuffler
+   0    0     0     1    1           7            Symbiot Arcer
+   0    0     0     1    1           7          Symbiot Butcher
+   0    0     0     1    1           7           Symbiot Reaver
+   0    0     0     1    1           7        Symbiot Harvester
+   0    0     0     1    1          -1                Blademstr
+   0    0     0     1    1          -1                  Warlock
+   0    0     0     1    1          -1               Inquisitor
+   0    0     0     1    1          -1                  Dervish
+   0    0     0     1    1          -1                 Assassin
+   0    0     0     1    1          -1                 Merchant
+   0    0     0     1    1          -1             Officer Corp
+   0    0     0     1    1          -1                   Clergy
+   0    0     0     1    1          -1                 Engineer
+   0    0     0     1    1          -1           Special Forces
+   0    0     0     1    1          -1              Rebel Horde
+   0    0     0     1    1          -1    Planet to Space Laser
+   0    0     0     1    1          -1    Planet to Space Missl
+   0    0     0     1    1          -1               Scout Tank
+   0    0     0     1    1          -1                 Med Tank
+   0    0     0     1    1          -1      Anit-personnel tank
+   0    0     0     1    1          -1                Mega Tank
+   0    0     0     1    1          -1               Hover Tank
+   0    0     0     1    1          -1                 Tank Gun
+   0    0     0     1    1          -1              SP Anti Air
+   0    0     0     1    1          -1              Tank Killer
+   0    0     0     1    1          -1          Hvy Tank Killer
+   0    0     0     1    1          -1              SP Anti Air
+   0    0     0     1    1          -1            Med Artillery
+   0    0     0     1    1          -1              Assault Gun
+   0    0     0     1    1          -1               Rocket Art
+   0    0     0     1    1          -1               Plague Gun
+   0    0     0     1    1          -1             Stealth Tank
+// air water space land barren default owner
+   1    0     0     0    1          -1                  Gunship
+   1    0     0     0    1          -1            Morph Fighter
+   1    0     0     0    1          -1                Divebmber
+   1    0     0     0    1          -1          Strategic Bmber
+   0    0     0     1    1          -1                 Star Lgn
+   0    0     0     1    1          -1               Ranger Lgn
+   0    0     0     1    1          -1          Grator Warbeast
+   0    0     0     1    1          -1                Shock Lgn
+   0    0     0     1    1          -1              Assault Lgn
+   0    0     0     1    1          -1        Powered Armor Lgn
+   0    0     0     1    1          -1             Infantry Lgn
+   0    0     0     1    1          -1              Militia Lgn
+   0    0     0     1    1          -1            Anti-Aircraft
+   0    0     0     1    1          -1            Anti-Tank Gun
+   0    0     0     1    1          -1                Artillery
+   0    0     0     1    1          -1               Planet Bmb
+   0    0     0     1    1          -1                Scientist
+   0    0     0     1    1          -1                  Peasant
+   0    0     0     1    1          -1                    Cargo

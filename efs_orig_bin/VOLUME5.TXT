@@ -1,0 +1,48 @@
+Raider Stealthship
+Space Frigate
+Space Destroyer
+Space Cruiser
+Space Dreadnought
+Space Carrier
+Battle Carrier
+Seraphim Space Fighter
+Archangel Space Fighter
+Prophet Space Torpedo Bomber
+Martyr Space Torpedo Bomber
+Assault Ships
+Freighter
+Bulk Hauler
+Starbase
+Starbase MkII
+Blademaster
+Dervishes
+Assassin
+Doppleganger
+Special Forces
+Cybercorps
+PTS Laser
+PTS Meson
+Wolfen 
+Pitbull 
+Grim Reaper 
+Mastiff
+Kestral
+Eagle
+Peregrine
+Direwolf
+Violator
+Pestulator Artillery
+Wraith Cloaked Tank
+Xyll Warbeast
+Ranger Legion
+Marauder Legion
+Gen Warriors
+Assault Legion
+Powered Legion
+Grimsons Legion
+Infantry Legion
+Fanatics
+Tracker Legion
+Plague Bomb
+Conclusion
+

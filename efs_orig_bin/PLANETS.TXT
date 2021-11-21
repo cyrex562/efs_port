@@ -1,0 +1,57 @@
+COUNT = 20
+
+ATTRACTOR CODES (May be added together for multiple effects)
+**
+**	  0 (or -)					No Effects
+**	  1							Polar regions only
+**	  2							Equatorial regions only
+**   4							Avoids coastal areas (exclusive to below)
+**   8							Attracted to Coastal Areas
+**  16							Attracted to Open Terrain type 1
+**  32							Attracted to Open Terrain type 2
+**  64							Attracted to Open Terrain type 3
+** 128							Attracted to Open Terrain type 4
+** 256							Attracted to Open Terrain type 5
+** 512                     Attracted to Forested areas
+**
+** NOTE: The highest percentage open terrain type (first in case of tie)
+**			becomes the primary land type and is not attracted to anything.
+**
+
+[Tile #]  [Percent Flags Scatter] x 5 different Open Terrain types and Forest
+
+Temperate    Grass  	     Arid         Desrt         Ice         Tndra        Trees     OK1 OK2 OK3 OK4 OK5   Mtns      OK1 OK2 OK3 OK4 OK5 OKT    Hills      OK1 OK2 OK3 OK4 OK5 OKT Rivers
+  0        50   2  40    5  18   5    0   2   0    5   1  40    5 384  20   25 ---  45   Y   Y   N   N   Y   4   1  20   Y   Y   Y   Y   Y   N    8 ---   30   Y   Y   Y   N   Y   Y   10
+  0        40   2  15   10   2   5    5   6   2    8   1  45    8 384  45   30   0  30   Y   Y   N   N   Y   5 ---  30   Y   Y   Y   Y   Y   Y   10 ---   30   Y   Y   Y   N   Y   Y    8
+  0        40   2  25   10   2   5    5   6   2    8   1  45    8 384  45   30   0  30   Y   Y   N   N   Y   5 ---  30   Y   Y   Y   Y   Y   Y   10 ---   30   Y   Y   Y   N   Y   Y    8
+  0        20   2  15   10   2  65    2   6   2    5   1  45    5 384  45   20   0  20   Y   Y   N   N   Y   2 ---  30   Y   Y   Y   Y   Y   Y    2 ---   30   Y   Y   Y   N   Y   Y   10
+  0        40   2  35   10   2   5    5   6   2    8   1  45    8 384  45   30   0  30   Y   Y   N   N   Y   5 ---  30   Y   Y   Y   Y   Y   Y   10 ---   30   Y   Y   Y   N   Y   Y    8
+  0        20   2  15   10   2  65    2   6   2    5   1  45    5 384  45   20   0  20   Y   Y   N   N   Y   2 ---  30   Y   Y   Y   Y   Y   Y    2 ---   30   Y   Y   Y   N   Y   Y   10
+  0        20   2  15   10   2  65    2   6   2    5   1  45    5 384  45   20   0  20   Y   Y   N   N   Y   2 ---  30   Y   Y   Y   Y   Y   Y    2 ---   30   Y   Y   Y   N   Y   Y   10
+
+Desert  		 Grass  	     Arid         Desrt         Ice         Tndra        Trees     OK1 OK2 OK3 OK4 OK5   Mtns      OK1 OK2 OK3 OK4 OK5 OKT    Hills      OK1 OK2 OK3 OK4 OK5 OKT Rivers
+  0         4   1  15    6  48  35   85   6   2    0   1   1    0 ---   1    5 ---  10   Y   Y   N   N   N  10 ---  30   N   Y   Y   N   N   N   20 ---  ---   N   Y   Y   N   Y   Y    2
+  0         4   1  15    6  48  35   85   6   2    0   1   1    0 ---   1    5 ---  10   Y   Y   N   N   N  10 ---  30   N   Y   Y   N   N   N   20 ---  ---   N   Y   Y   N   Y   Y    2
+  0         4   1  15    6  48  35   85   6   2    0   1   1    0 ---   1    5 ---  10   Y   Y   N   N   N  10 ---  30   N   Y   Y   N   N   N   20 ---  ---   N   Y   Y   N   Y   Y    2
+
+Ocean        Grass  	     Arid         Desrt         Ice         Tndra        Trees     OK1 OK2 OK3 OK4 OK5   Mtns      OK1 OK2 OK3 OK4 OK5 OKT    Hills      OK1 OK2 OK3 OK4 OK5 OKT Rivers
+  0         6  2   95    2   2  40    1  32   2    5   1  40    1 129  20   20   -  50   Y   Y   Y   N   Y   1 ---  30   Y   Y   Y   Y   Y   Y    3 ---   30   Y   Y   Y   Y   Y   Y    3
+  0         6  2   95    2   2  40    1  32   2    5   1  40    1 129  20   20   -  50   Y   Y   Y   N   Y   1 ---  30   Y   Y   Y   Y   Y   Y    3 ---   30   Y   Y   Y   Y   Y   Y    3
+  0         6  2   95    2   2  40    1  32   2    5   1  40    1 129  20   20   -  50   Y   Y   Y   N   Y   1 ---  30   Y   Y   Y   Y   Y   Y    3 ---   30   Y   Y   Y   Y   Y   Y    3
+
+Ice          Grass  	     Arid         Desrt         Ice         Tndra        Trees     OK1 OK2 OK3 OK4 OK5   Mtns      OK1 OK2 OK3 OK4 OK5 OKT    Hills      OK1 OK2 OK3 OK4 OK5 OKT Rivers
+  2         0   2  15    5 138   5    0 ---   0   20   1  40   50 384  20   25 ---  45   Y   Y   N   N   Y   4   1  20   N   N   N   Y   Y   N    8 ---   30   Y   Y   N   N   Y   N   10
+  2         0   2  15    5 138   5    0 ---   0   20   1  40   50 384  20   25 ---  45   Y   Y   N   N   Y   4   1  20   N   N   N   Y   Y   N    8 ---   30   Y   Y   N   N   Y   N   10
+  2         0   2  15    5 138   5    0 ---   0   20   1  40   50 384  20   25 ---  45   Y   Y   N   N   Y   4   1  20   N   N   N   Y   Y   N    8 ---   30   Y   Y   N   N   Y   N   10
+
+Jungle       Grass  	     Arid         Desrt         Ice         Swamp        Trees     OK1 OK2 OK3 OK4 OK5   Mtns      OK1 OK2 OK3 OK4 OK5 OKT    Hills      OK1 OK2 OK3 OK4 OK5 OKT Rivers
+  3        20 ---  45    5 ---   5    0 ---   2    0   1   1   30   8  45   50 ---  50   Y   Y   Y   Y   Y   5 ---  10   Y   Y   Y   Y   N   Y   10 ---   20   Y   Y   Y   Y   Y   Y   30
+  3        20 ---  45    5 ---   5    0 ---   2    0   1   1   30   8  45   50 ---  50   Y   Y   Y   Y   Y   5 ---  10   Y   Y   Y   Y   N   Y   10 ---   20   Y   Y   Y   Y   Y   Y   30
+  3        20 ---  45    5 ---   5    0 ---   2    0   1   1   30   8  45   50 ---  50   Y   Y   Y   Y   Y   5 ---  10   Y   Y   Y   Y   N   Y   10 ---   20   Y   Y   Y   Y   Y   Y   30
+
+Barren       Desrt  	     Desrt        Desrt        Crust        Crust        Trees     OK1 OK2 OK3 OK4 OK5   Mtns      OK1 OK2 OK3 OK4 OK5 OKT    Hills      OK1 OK2 OK3 OK4 OK5 OKT Rivers
+  4        30 ---  15   10 ---   5    5 ---   2    5 ---   1    5 ---   1   40 ---  20   Y   Y   Y   Y   Y  10 ---  30   Y   Y   Y   Y   Y   Y   10 ---   30   Y   Y   Y   Y   Y   Y   10
+
+MEGACITY     Grass 	     Cncrt        Desrt        Tndra        Swamp        Spraw     OK1 OK2 OK3 OK4 OK5   Twers     OK1 OK2 OK3 OK4 OK5 OKT    Twers      OK1 OK2 OK3 OK4 OK5 OKT Rivers
+  1         5 ---  15   70 ---  25    5 ---   5    0 ---   1    0 ---   1   80 ---  20   Y   Y   Y   N   N   3 ---  45   N   N   N   N   N   Y    3 ---   45   N   N   N   N   N   Y   10
+

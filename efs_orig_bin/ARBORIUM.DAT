@@ -1,0 +1,81 @@
+// Arborium harvesting information
+//
+// (see farm.dat for the rules)
+//
+{ "ocean"
+   "normal"     "food" "4" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "4" "@"
+}
+{ "grass"
+   "normal"     "food" "5" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "4" "@"
+}
+{ "arid grass"
+   "normal"     "food" "4" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "4" "@"
+}
+{ "desert"  
+   "normal"     "food" "4" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "4" "@"
+}
+{ "ice"
+   "normal"     "food" "4" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "4" "@"
+}
+{ "tundra"
+   "normal"     "food" "4" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "4" "@"
+}
+{ "mountain"
+   "normal"     "food" "1" "@"
+   "city"       "food" "1" "@"
+   "ice"        "food" "1" "@"
+   "jungle"     "food" "1" "@"
+   "barren"     "food" "1" "@"
+}
+{ "hill"
+   "normal"     "food" "2" "@"
+   "city"       "food" "2" "@"
+   "ice"        "food" "2" "@"
+   "jungle"     "food" "2" "@"
+   "barren"     "food" "2" "@"
+}
+{ "tree"
+   "normal"     "food" "3" "@"
+   "city"       "food" "3" "@"
+   "ice"        "food" "3" "@"
+   "jungle"     "food" "3" "@"
+   "barren"     "food" "3" "@"
+}
+{ "river"
+   "normal"     "food" "6" "@"
+   "city"       "food" "3" "@"
+   "ice"        "food" "3" "@"
+   "jungle"     "food" "3" "@"
+   "barren"     "food" "3" "@"
+}
+{ "delta"
+   "normal"     "food" "8" "@"
+   "city"       "food" "4" "@"
+   "ice"        "food" "4" "@"
+   "jungle"     "food" "4" "@"
+   "barren"     "food" "4" "@"
+}

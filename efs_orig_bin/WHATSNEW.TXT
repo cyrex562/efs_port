@@ -1,0 +1,676 @@
+EMPEROR OF THE FADING SUNS
+Commercial Patch Version 1.40
+SegaSoft, Inc.
+Holistic Designs, Inc.
+Revision date:  May 27, 1999
+
+
+1.40 Patch Notes:
+-----------------
+
+    * A file named "DAT_0527.EXE" has been included in this archive.
+      This file contains all of the latest "official" .DAT files.
+      These .DAT files are particularly important for PBEM games.
+      Simply double-click the DAT_0527.EXE file (icon) and follow
+      the prompts.  The file will be located in the EFS directory.
+      (Note:  If you created custom DAT files, and wish to keep
+      them, be sure to back them up prior to installing the official
+      DAT files.)
+
+    * Check the bottom of this file for additional information about
+      what has been changed since the previous EFS patches.  There
+      are tons of bug fixes and enhancements!
+
+    * This patch will only work properly with the full commercial
+      CD-ROM version of Emperor of the Fading Suns.  It will also
+      install properly over v1.1 - v1.30 versions of EFS.
+
+    * Several changes have been made to Emperor of the Fading Suns.
+      We strongly recommend that you backup your current .SAV games
+      before using the new version.  Also note that the newer .SAV
+      games are incompatible with previous versions of Emperor of
+      the Fading Suns (however, this newer version can load SAV
+      games from previous versions.)
+
+    * In PBEM sessions, with the new "security" option set to "on",
+      all users must have identical ".DAT" files.  This ensures that
+      no users will easily cheat by modifying the .DAT files on
+      their system.  Also, be certain that all PBEM members upgrade
+      to this patch version.  A ZIP file containing the latest ".DAT"
+      files has been included in this archive.
+
+
+Very VERY Special Thanks to Our Beta Testers!!:
+-----------------------------------------------
+
+Once again, a large list of volunteers tested and made possible the 1.4
+patch.  There are perhaps too many to list here, but the following
+individuals were especially helpful in finding and recording some incredibly
+tough problems:
+	
+   Matt Caspermeyer
+   Kent Matthew Peterson
+   Richard Wein
+   Ken Bourne
+   Jeff Stone
+   DeCarlos Moore
+   Donald Backa
+   Mike Ely
+   Arthur "Sonny" Simpson II
+
+And, thanks to everyone else involved.
+
+
+
+Features/Fixes for version 1.40 (56 Code Changes)
+-------------------------------------------------
+
+v1.40	Fixed - Bug which prevented AI engineers from building any
+   	structures.
+
+v1.40	Fixed - Disband air units bug.  Previously a player could 
+   	repeatedly disband air units and receive back resources 
+   	so long as the player did not exit the unit info screen.
+
+v1.40	Fixed - League trade problems with merchantile savy. 
+   	Previously players with merchantile savy could endlessly 
+   	make money by buying sufficient quantities of a resource 
+   	to make the price rise and then immediately selling back.
+
+v1.40	Fixed - Space Transport Charismatic Leadership cheat. 
+   	Previously players could load nobles onto transports and 
+   	remove them from the palace then land them and move them
+   	back into the palace to gain a double bonus.
+
+v1.40	Added - Added the variable "CD_Disabled" to the dat\efs.ini 
+   	file. When set to 1, the CD player is disabled and the CD 
+   	options screen will not display. Added in case there is some 
+   	compatibility problem or if your music player is broken.
+
+v1.40	Fixed - Occasionally by using the Unload All button on the
+   	Unit Info dialog, a user could unload ground units into
+   	space. (RE: Invulnerable Nobles bug posting.)
+
+v1.40	Fixed - Attack Odds below 1-1 were incorrectly calculated.
+   	Odds below 1-1 and above 1-2 were seriously incorrect.  Odds
+   	are rounded down the nearest column correctly now.
+
+v1.40	Modified - League prices no longer change as commodities are
+   	bought. Prices are now modified at the end of the player
+   	turn. They no longer change based on recent purchases either.
+   	Prices are based on changes in the player's stock of goods.
+   	If, for example, a player started buying commodities from
+   	the league to create a stock pile, prices would drop. If the
+   	player began to run short of a commodity, prices will rise.
+   	In any event, price changes are now constrained to plus or
+   	minus 20 percent.
+
+v1.40	Fixed - PTS weapons will not fire correctly if there is a
+   	Naval unit stacked FIRST with them. (Thanks to Matt
+   	Caspermeyer for sending the definitive save with this bug!)
+
+v1.40	Modified - Changed new econ engine to leave prices stable
+   	when on-hand values remain zero from turn to turn.
+
+v1.40	Fixed - Ships landing and taking damage would not die when
+   	health was reduced to zero.
+
+v1.40	Fixed - Loyalty was changed by the difference between current
+   	pay and 100% instead of current pay and last turn's pay. This
+   	meant you could raise pay to maximum for one turn to get
+   	loyalty up to 100%, then reduce to the lowest green notch
+   	(100%) the next turn and not lose any loyalty.
+
+v1.40	Fixed - Bug prevented Cities from ever rebeling. Cities can now
+   	rebel if tax rates are set too high.
+
+v1.40	Increased - The agressiveness of the AI is increased to the 
+   	point where it should make some losing attacks.
+
+v1.40	Fixed - Charismatic Leadership not lost when last noble was 
+   	killed in palace. (Thanks to Matt Caspermeyer for reporting 
+   	this.)
+
+v1.40	Fixed - Crash sometimes experienced the turn after building a 
+   	lab.
+
+v1.40	Fixed - Labs were constantly asking to be assigned research
+	after nothing is assigned.
+
+v1.40	Fixed - AI would occasionally attempt to transport things it 
+   	shouldn't (canBCargo = 0 in UNIT.DAT). (Thanks to Kent Matthew 
+   	Peterson for discovering this in a Hyperion game.)
+
+v1.40	Changed - Units with a zero spot radius no longer spot 
+   	anything.
+
+v1.40	Changed - Units with a zero spot can not move into unrevealed 
+   	hexes.
+
+v1.40	Changed - UNIT.DAT -> Cargo Pods to spotting strength is zero. 
+ 
+v1.40	Changed - nonCombat units (like cargo pods) can no longer 
+   	capture or initiate any form of combat. (Unless in a stack 
+   	with combatant units.)
+
+v1.40	Changed - NAVAL units may now move freely through any city hex.
+
+v1.40	Changed - Stats in UNIT.DAT of freighters and Bulk Haulers to 
+   	make them less effective in combat.
+
+v1.40	Fixed - When a player's last lab was destroyed, any tech's 
+   	currently being researched would remain marked as "in 
+   	progress." Therefore, these techs would never become 
+   	available again to research, and if proscribed, they would 
+   	continue to attract the Church's notice. (Thanks to Mike Ely
+   	for sending in this one!)
+
+   	NOTE: Fix will not repair old saves. 
+   	(You may fix old games by destroying your last lab again.)
+
+v1.40	Fixed - When plague killed a unit, if that unit's stack was 
+   	selected, then "whole stack" was selected, then the unit was 
+   	moved, the dead unit could be "brought" back to life. However, 
+   	behavior of this zombie unit was undefined. (Thanks to Richard 
+   	Wein for this one!)
+
+   	NOTE: Fix will not repair "zombie" units in old saves. 
+   	(You may fix old games by immediately entering fullscreen unit 
+   	view and exiting.)
+
+v1.40	Fixed - The "Dreaded phantom unit bug." In patch games and 
+   	sometimes with Symbiot pieces, a high Camo unit may go 
+   	unspotted after retreating from combat. If the "invisisble" 
+   	unit is moved through, it is captured, and remains invisible 
+   	until moved. However, in the invisible state it may cause the
+   	game to crash.
+
+   	NOTE: Fix will not repair "phantom" units in old saves. 
+   	(You may fix old games by cycling to the phantom unit and 
+   	moving one space using the keyboard.)
+
+v1.40	Fixed - For patch users, the Lander is able to move on planet 
+   	again.
+
+   	NOTE: This does not affect the commercial standard version.
+
+v1.40	Fixed - "Naval" coded Wheel and Crawler units would crash if 
+   	they tried to move through a city hex.
+
+   	NOTE: This does not affect the commercial standard version.
+
+v1.40	Fixed - Sometimes a naval unit could not move into a city hex 
+   	with mouse.
+
+v1.40	Fixed - When last Noble is killed in a Palace the potential 
+   	loyalty loss could be applied to the wrong player. (If both had
+   	Charismatic Leadership.)
+
+   	** The last four bugs found by Matt Caspermeyer, Thanks! **
+
+v1.40	Changed - Naval units only allowed in coastal cities.
+
+v1.40	Fixed - Resource markers would on rare occasions become "owned"
+   	by AI players. AI players would then begin producing units from 
+   	them. (Thanks to Ken Bourne for finally noticing the pattern 
+   	behind this!)
+ 
+v1.40	Fixed - Very rarely, a stack will get confused with units 
+   	orbiting overhead. This may cause a unit to be unable to 
+   	attack. (Thanks to Ken Bourne for sending in this save.)
+
+v1.40	Fixed - The disappearing unit bug. Occasionally, when saving 
+   	and re-loading a game, an entire section of units disappeared. 
+   	(Thanks to Kent Peterson for sending the perfect saves on this 
+   	problem!)
+ 
+v1.40	Fixed (Most likely) - Non-Cargo ground units occasionally pop 
+   	up into orbit.
+
+v1.40	Fixed - Marauders would not participate in Space Combat when 
+   	onboard a Carrier.
+
+v1.40	Fixed - Focus would leave a ship after making an attack even 
+   	when it had movement points remaining.
+
+v1.40	Fixed - When AI made a Space to Space attacks, it would only 
+   	use one movement point.
+
+v1.40	Fixed - When an AI unit moved off screen the window would not 
+   	re-center on it and the game would crash.
+
+v1.40	Fixed - Lockup during AI turn. (Usually occurs late in 
+   	the game.) (Thanks to jwstone@accessone.com for save.)
+
+v1.40	Fixed - AI Lockup which occurs when AI tries to look at space
+   	units on the last planet. (Thanks to Jeff Stone.)
+
+v1.40	Fixed - A player could avoid providing the upgrade unit for
+   	production by switching production from some other unit.
+   	(Thanks to Matt Caspermeyer for providing the save game.)
+
+v1.40	Fixed - Planetary Loyalty NOT adjusted when Nobles deposited
+   	in Palace by canceling an upgrade unit.
+
+v1.40	Fixed - Disbanding captured upgrade units often fails to create
+   	the base unit. (Thanks to Matt Caspermeyer for providing the 
+   	save game.)
+
+v1.40	Changed/Fixed - Upgrade units ALWAYS require a level zero 
+   	unit to build. Higher level units will not be taken if 
+   	available. 
+
+v1.40	Fixed - A loaded save game sometimes crashed during messsage
+   	review when viewing combat report and a "rally" message was
+   	displayed. (Thanks to Matt Caspermeyer for the save.)
+
+v1.40	Fixed - AI city production might be stalled in some cases 
+   	because AI tried to build cities over existing city locations.
+   	(Thanks to Donald Backa for this one.)
+
+v1.40	Fixed - Phantom units can be created by building an Oil Well 
+   	at see from a trasnport carrying at least one other unit.
+   	(Thanks to Kent Matthew Peterson for discovering this.)
+
+v1.40	Fixed - AI freeze caused by AI expecting a psychic troop on a
+   	Freighter to fight in combat. (They do not unless on a 
+   	carrier.) (Thanks to DeCarlos Moore for sending in this one.)
+
+v1.40	Change - Pyschic troops can participate in ship combat if on 
+   	board a Space Carrier.
+
+v1.40	Fixed - The abrubt loss of labs in a late game position can 
+   	overflow the stack reporting the various technologies lost.
+   	(Thanks to Donnie Backa and Arthur "Sonny" Simpson II for 
+   	finding this one.)
+
+v1.40	Fixed - Date did not advance in all AI games.
+
+v1.40	Added - Under [Options] in the dat\efs.ini file, you may now 
+   	enter the following variable:
+ 
+   	SaveTurnsInLog=5
+
+   	This sets the number of log save files the game keeps while 
+   	playing. The game creates log saves at the beginning of each 
+   	turn (right before the Li Halan,) and deletes the oldest one 
+   	in excess of the value. (5 in this example.)
+
+v1.40	Added - Under [Computer] in the dat\efs.ini file, you may now 
+   	enter the following variable:
+
+   	HideAI=1
+
+   	Setting the value to 1 turns off all AI display of units 
+   	moving. This provides a slight speed increase for most games.
+
+v1.40	Change - Space ships may now land on unoccupied cities and 
+   	non-combatant units, (or both.) This qualifies as an act of war
+   	for the treaty status. The game warns players about to land on
+   	other factions they have a peace treaty with or an alliance.
+
+
+Features/Fixes for version 1.30
+--------------------------------
+
+v1.30   "5060" bug destroyed along with a few more crash issues.
+
+v1.30	PBEM "Secure Mode" now implemented!!!
+
+   	The "Game Options" screen adds "Secure On/Off" when PBEM is on.
+
+	   	Secure Options (when on):
+   		-------------------------
+      		1. Unique PBEM passwords for each player!
+      		2. CRC on all DAT files!
+      		3. Notifies all players if CRC difference exists.
+      		4. Can't save game until "END TURN" is selected!
+      		5. Older versions of EFS will NOT load these games!
+	   	(If it did, it would not check player passwords...)
+
+v1.30	Ministry Engineers now create Ministry Cities.  Major Game play issue!
+
+v1.30	Ministry cities no longer produce House resources!
+
+v1.30   Implemented A.I. optimization in Build Cities routine.  Estimated
+        speed increase is about 40% faster!
+
+v1.30   Added letters to the cargo pod icon so you can tell what the cargo
+        contains without going to the unit info screen.
+
+v1.30	Ministry Cities drawn with white border instead of normal black.
+
+v1.30	Ministry unit moves left display is black on white instead of
+   	white on black.
+
+v1.30	Added code to clean up any existing SAV games with corrupted data.
+   	Old games with lockup problems may now work fine.
+
+v1.30   Fixed bug, in which you can build a spy without an officer if you
+        don't have the required resources and buy them from the League.
+
+v1.30	When a PBEM player is eliminated, the PBEM game will save properly.
+
+v1.30   Ministry cities would sometimes dump House resources out if "Cancel"
+        was selected while building units.  This bug has been fixed.
+
+v1.30	Can not move Ministry units into House cities (and vice versa.)
+
+v1.30	A.I. speed increase (a few percent) in Spotting code.
+
+v1.30   A.I. avoids mixed stack units (in case a mixed stack bug should
+        arise.)
+
+v1.30	A.I. can no longer build on Byzanthium II.
+
+v1.30   Fixed bug concerning cargo ships retreating from a city.  (Cargo
+        would be partially left behind and prevent capture of city.)
+
+v1.30   Subs became cargo when moved onto a Naval Transport.  UNIT.DAT was
+        wrong.  *** Be sure to use new UNIT.DAT file located in the official
+	DAT files archive included with this patch ***
+
+v1.30	Fixed problem where AI would sometimes declare war on themselves.
+
+v1.30	Fixed problem where sometimes the health of a unit went negative.
+
+v1.30   Labs researching nothing no longer increase the number of labs
+        counter.
+
+v1.30   Fixed problem where return from the unit info screen would not update
+        the resource numbers at the bottom of the planet screen.
+
+v1.30	You can now access the technology screen for a particular lab through
+   	the City Info screen.
+
+v1.30	Fixed bug where Insanity trait would result in no singularities being
+   	produced.
+
+v1.30   Having a noble in a stack during combat is more effective.
+
+v1.30   Fixed bug where St. Almathea's Lancet had no effect.
+
+v1.30   Having the Hand of St. Ignatius relic in a stack during combat has
+        more of an effect.
+
+v1.30   Having the Rod of Holy Smiting relic in a stack during combat has
+        more of an effect.
+
+v1.30   Added an attack bonus when attacking the Vau if you have the
+        technology Vau Psychology.
+
+v1.30	Added an attack bonus when attacking the Symbiots if you have the
+   	technology Symbiot Psychology.
+
+v1.30   Fixed bug where sometimes the lab screen wouldn't come up for a lab
+        during production.
+
+v1.30   Fixed bug where sometimes you got the message "Cannot merge loaned
+        units" when trying to move house units into their own city.
+
+v1.30	Fixed several "mixed stack" bugs with Ministries.
+
+v1.30	You can no longer build Clergy.
+
+v1.30	You can no longer find Clergy or Inquisitors in ruins or alien ruins.
+
+v1.30	Fixed bug where striking a technology didn't immediately reset the
+	prerequisites for all the other technologies.
+
+v1.30	Fixed lockup when mouse cursor was dragged to bottom of the screen on
+   	a few specific video cards.
+
+
+v1.21 Fixes:
+------------
+
+v1.21   CRASH BE GONE:
+        Based on user .SAV game files in the past, we've nailed about
+        95% of the nasty A.I. crash bugs.  However, the "5060 bug" still
+        exists.
+
+v1.21   CITY INFO SCREEN MAP:
+        The city info screen shows the planet map correctly.
+
+v1.21   CITY INFO SCREEN MISC.:
+        The city info screen no longer shows an outline of a button.
+
+v1.21   RESOURCE ISSUES:
+        Fixed bug where resources were not being subtracted during
+        production.
+
+v1.21   BOMBARD FOREVER BUG FIXED:
+        Fixed bug where you could repeatedly bombard even when the bombard
+        again button had disappeared.
+
+v1.21   OPTIONS SCREEN DISPLAY:
+        The options screen now shows the correct version number.  (Previous
+        v1.2 version showed v1.3.  When the real version "1.3" is posted,
+        we'll be sure to include a little bit more information on this
+        screen to avoid confusion).
+
+v1.21   SYMBIOT/VAU REBELS?:
+        Fixed bug when playing with a random galaxy where Symbiot and Vau
+        units were owned by Rebels (this may fix the "Rebels are at war
+        with Rebels" bug - not confirmed).
+
+v1.21   LIMITED ENGAGEMENT:
+        Made it so the "Limited Engagement!" report message will not pop-up
+        during the A.I. turns.
+
+v1.21   MISCELLANEOUS A.I.
+        Fixed some generic AI bugs to avoid crash.
+
+
+v1.2 Game Enhancements:
+-----------------------
+
+v1.2    TURN SPEED IN THE LATER YEARS:
+        Previously, as the NPC built multiple units, the CPU calculation
+        time could become severe.  The A.I. turns now complete about 40%
+        faster then previous.  This number is typical, but may vary from
+        machine to machine.
+
+v1.2    UNIT SUMMARY SCREEN:
+        Added a city summary screen.  The new screen shows what units are
+        being produced at which cities on all planets and how long they
+        have left to build.  Information can be also be sorted (for the
+        serious players!)
+
+v1.2    THE INQUISITION:
+        The Church would sometimes make an empty promise to destroy
+        your labs.  It is now MUCH more likely that if you research
+        a forbidden technology, or if the Church proscribes a
+        technology you already possess, they will attack your lab.
+
+v1.2    CHURCH DIPLOMACY:
+        Previously, the Church was not accepting contracts often.  The
+        leniency of the church has been enhanced.
+
+v1.2    VIEWING PLANET MAPS:
+        Planet maps are now full screen!
+
+v1.2    SAVING A PLANET MAP TO A FILE:
+        On the planet map screen, there is a new option to SAVE a world
+        map to a .PCX file.  Files will be saved in the EFS sub-directory.
+
+v1.2    BOMBARDING MULTIPLE TIMES:
+        A "Bombard Again" option has been added to the space combat screen!
+
+v1.2    PLANET HEX MEMORY:
+        When bombarding and landing, the game remembers the last hex position
+        clicked on.  This makes the game much easier to navigate when going
+        between the starmap and the planet map.
+
+v1.2    UNIT BUILDING MEMORY:
+        After building a unit, when the user is prompted to build another
+        unit, the previously selected unit is now the default unit in the
+        scroll list.
+
+v1.2    BUILDING PRODUCTION:
+        After a structure completes building a unit, the structure which
+        built the unit is displayed on the planet map.  The hex will have
+        a "darkened" appearance (in case similar structures are nearby).
+
+v1.2    UNIT MANAGEMENT:
+        When you right click on an enemy unit, you can now click on the
+        green arrow button to go to the next unit.
+
+v1.2    LAB RESEARCH FEE:
+        A line of text has been added to lab screen informing players
+        that it costs 500 Firebirds per lab/turn to research technology.
+
+v1.2    LAB RESEARCH WARNING:
+        Added a warning message if the user doesn't have enough Firebirds
+        to research at a particular lab.
+
+v1.2    PROSCRIBING TECHNOLOGIES:
+        The Church wasn't proscribing technologies.  There is now a select
+        group of morally "questionable" technologies that the church may
+        randomly deem odious to humanity.
+
+v1.2    FORBIDDEN TECHNOLOGIES:
+        Technologies which are proscribed (Red) were previously listed
+        when asking Church to proscribe a technology.  Now, only
+        technologies which can be proscribed are listed.
+
+v1.2    BYZANTIUM II SCREEN:
+        If you promised your votes for a Ministry, the ministry selections
+        would show your "promised" commitment, and not necessarily the
+        actual holder of the position (or vacant).
+
+v1.2    RAISING TAXES:
+        When raising taxes, the Advisor now warns you that your cities
+        may rebel.
+
+v1.2    UNLOADING CARGO:
+        Added an "Unload All" button to unit info screen.
+
+
+v1.2 Fixes:
+-----------
+
+v1.2    GUNSHIPS:
+        A rather impressive unit, the Gunship unit is now researchable
+        and functional.  The technology requirement for Gunships has been
+        changed to Energy Physics.
+
+v1.2    LEAGUE DIPLOMACY:
+        If you were at war with the League, the diplomacy screen did not
+        have the thumbs down showing.  This problem has been fixed.
+
+v1.2    A.I. VOTING:
+        NPC houses without nobles on Byzantium II were voting.  This
+        problem has been fixed.
+
+v1.2    RUINS AND UNITS:
+        Ruins would incorrectly give players scientists and peasants
+        (which were removed from game-play ages ago).  These unusable
+        units will no longer appear.
+
+v1.2    RUINS AND COMBAT:
+        Enemy units were incorrectly retreating into Ruins.  This
+        was a cause of "mixed" stacks, leaving an affected stack
+        unusable.  This problem has been fixed.
+
+v1.2    HIDDEN MUSIC TRACK?:
+        The 10th track (and one of the best tracks) was not playing
+        within the game.  This problem has been fixed.
+
+v1.2    SPY ASSAULT:
+        If you had a stack with a Spy in it on Byzantium II, you could
+        previously attack with the entire stack.  This problem has been
+        fixed.
+
+v1.2    UNIVERSAL WAREHOUSE:
+        Fixed bug with universal warehouse turned off where it reported
+        the wrong number of a resource.
+
+v1.2    LEAGUE CARGO:
+        Late in the game the League wasn't restocking.  This problem
+        has been fixed.
+
+v1.2    MINISTRY ASSIGNMENTS:
+        You could change ministry assignments more than once during your
+        first turn as Regent.  This problem has been fixed.
+
+v1.2    PLANETARY SECT:
+        Changing planet sect now makes new units start with the new sect.
+
+v1.2    BYZANTIUM MESSAGE:
+        Landing on Byzantium II before someone declared themselves Regent
+        resulted in a message saying combat is restricted.  This problem
+        his been fixed.
+
+v1.2    SPACE CARGO:
+        While in space, if you attempted to drag cargo outside of the 4x5
+        grid of boxes, a message stating that you can't unload in space
+        would appear and then draw a box next to the House banner.
+        This problem has been fixed.
+
+v1.2    EXCOMMUNICATION:
+        Church wasn't excommunicating on contract.
+
+v1.2    EXCOMMUNICATION (2):
+        Excommunication from the Church will now properly affect
+        cities loyalty.
+
+v1.2    HOLY WRIT:
+        Previously, you could sign the Holy Writ more than once.
+        This problem has been fixed.
+
+v1.2    SHADED CITY "BUILD":
+        Fixed a bug where you could build units in an unidentified city.
+        This problem has been fixed.
+
+v1.2    SPELLING:
+        Fixed miscellaneous spelling errors.
+
+v1.2    256 COLOR DIALOGUE
+        Previously, in some instances, if your game was not running in
+        256 colors, the warning dialogue box would overwrite the cursor.
+        Your cursor will now properly move "over" the box.
+
+v1.2    PRODUCTION BUGS:
+        Fixed miscellaneous bugs with NPC production.
+
+v1.1 Bug Fixes:
+---------------
+
+v1.1    HOURGLASS CURSOR:
+        On some machines, if the intro-video sequence was skipped using
+        the ESC key, Windows would incorrectly place an hourglass cursor
+        over the EFS cursor.  Note that this did not happen with an
+        animated "wait" cursor. This problem has been fixed.  However
+        if you are still experiencing problems with an hourglass cursor,
+        try to ALT-Tab out of the game, then ALT-Tab back in.  That
+        should do the trick.
+
+v1.1    MINISTRY MIXED UNIT STACKS:
+        If a player left units in a Ministry owned city. If the Ministry
+        changed hands at the next election and the new player built units
+        in the hex, a mixed unit stack would be created. No units were
+        able to move into or out of this stack. This problem has been fixed.
+
+v1.1    REBEL SHIPS IN SPACE:
+        When a player was defeated, any starships still in orbit over any
+        world would become Rebel ships. Clicking on these ships would cause
+        lock-ups in some cases. This problem has been fixed.
+
+v1.1    ELECTIONS:
+        If the user selected "wait" during an election and then moved
+        remaining noble(s) off of Byzantium Secundus, the game would get
+        stuck in a loop.  This problem has been fixed.
+
+v1.1    MAXIMUM TAXES:
+        If the user raised the tax rate to the maximum and lost all
+        technologies on the following turn (because the labs would lose all
+        loyalty), cities could not be built, and technologies could not be
+        researched for the duration of the game -- even if the taxes were
+        lowered. This problem has been fixed.
+
+v1.1    SENTRIED NAVAL UNITS:
+        If a player loaded one unit onto a transport, sentried the
+        transport, loaded another unit onto the transport, unsentried the
+        transport, and unloaded the transport, then the game would freeze.
+        This problem has been fixed.

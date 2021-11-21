@@ -1,0 +1,19 @@
+// amount of stock that the league tries to maintain for each resource
+// and per planet type
+//
+//                Normal Desert Ice Jungle Barren
+{
+"food"          "  100    100   100  100    100"
+"energy"        "  100    100   100  100    100"
+"metal"         "  100    100   100  100    100"
+"trace"         "  100    100   100  100    100"
+"exotica"       "  100    100   100  100    100"
+"chemicals"     "  100    100   100  100    100"
+"biochems"      "  100    100   100  100    100"
+"electronics"   "  100    100   100  100    100"
+"ceramsteel"    "  100    100   100  100    100"
+"wetware"       "  100    100   100  100    100"
+"monopols"      "  100    100   100  100    100"
+"gems"          "  100    100   100  100    100"
+"singularities" "  100    100   100  100    100"
+}

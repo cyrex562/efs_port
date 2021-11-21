@@ -1,0 +1,11 @@
+E8FB47
+1=Fading Suns
+2=Battle
+3=For the Fallen
+4=Madrigal
+5=Gothic March
+6=Confrontation
+7=After the Battle
+8=Sanctus
+9=Finale
+10=The Gateway
