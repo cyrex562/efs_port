@@ -1,12 +1,18 @@
-// WARNING: Unknown calling convention yet parameter storage is locked
+use libc;
+use winapi::{self, shared::guiddef::GUID, um::{winnt::HRESULT, unknwnbase::IUnknown}};
 
-pub fn DirectDrawCreate(GUID *lp_guid,LPDIRECTDRAW *lp_lp_dd,IUnknown *p_unk_outer) -> HRESULT
+pub struct IDrectDraw {}
 
-{
-    HRESULT HVar1;
+pub fn DirectDrawCreate(
+    lp_guid: &GUID,
+    lp_lp_dd: &mut IDrectDraw,
+    p_unk_outer: &mut IUnknown,
+) -> HRESULT {
+    let mut HVar1: HRESULT;
 
     // WARNING: Could not recover jumptable at 0x004bb4ca. Too many branches
     // WARNING: Treating indirect jump as call
-    HVar1 = DirectDrawCreate(lp_guid,lp_lp_dd,p_unk_outer);
-    return HVar1;
+    // HVar1 = DirectDrawCreate(lp_guid, lp_lp_dd, p_unk_outer);
+    unimplemented!();
+    HVar1
 }
