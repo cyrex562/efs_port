@@ -5,7 +5,7 @@ unsafe fn FUN_00401010(param_1: *mut u32,param_2: *mut u32,param_3: i32,param_4:
     let mut uVar2: u32;
     let mut local_8: u32;
 
-    uVar2 = param_3 - param_5 >> 0x1;
+    uVar2 = (param_3 - param_5 >> 0x1) as u32;
     // TODO:
     // for (local_8 = param_4 >> 0x1; uVar1 = param_4 >> 0x1, local_8 != 0x0; local_8 = local_8 - 0x1) {
     //   for (uVar1 = uVar2 >> 0x2; uVar1 != 0x0; uVar1 = uVar1 - 0x1) {
